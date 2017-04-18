@@ -11,7 +11,7 @@ function simsimi_api_request($api_key, $params){
 
 	$method	= "GET";
 	$host	= "http://api.simsimi.com/request.p".$api_key.$params;
-	$params["key"]   	= $api_key;
+	$params["fd76a969-c7ed-456c-8227-bd45bb43cb4f"]   	= $api_key;
 	
 	ksort($params);
  
